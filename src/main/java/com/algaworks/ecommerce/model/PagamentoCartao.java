@@ -5,10 +5,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
@@ -27,6 +24,7 @@ public class PagamentoCartao implements Serializable {
     private Integer pedidoId;
 
     @Column(name = "preco_produto")
+    @Enumerated(EnumType.STRING)
     private StatusPagamento precoProduto;
 
     private String numero;
