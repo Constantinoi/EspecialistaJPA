@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5012389d-f2b6-4398-82be-b014c9ca2b9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/enums/SexoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/enums/StatusPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/enums/StatusPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,68 +28,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="323">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+            <state relative-caret-position="255">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-              </folding>
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/iniciandocomjpa/ConsultaClienteTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -89,6 +97,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -98,7 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/IniciarUnidadeDePersistencia.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/util/IniciarUnidadeDePersistencia.java" />
@@ -106,9 +114,20 @@
         <option value="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/iniciandocomjpa/ConsultandoRegistrosTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/iniciandocomjpa/OperacoesComTransacaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/iniciandocomjpa/ConsultaClienteTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/enums/SexoCliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/enums/StatusPedido.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/enums/StatusPagamento.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" />
       </list>
     </option>
   </component>
@@ -118,13 +137,16 @@
     <option name="width" value="1374" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,6 +179,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algoworks-ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algoworks-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algoworks-ecommerce" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +265,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,6 +278,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.algaworks.ecommerce.model" />
       <recent name="com.algaworks.ecommerce.iniciandocomjpa" />
     </key>
   </component>
@@ -409,6 +440,7 @@
       <workItem from="1632218029445" duration="2656000" />
       <workItem from="1632300186457" duration="7168000" />
       <workItem from="1632386783053" duration="1610000" />
+      <workItem from="1632388425340" duration="1279000" />
     </task>
     <servers />
   </component>
@@ -445,13 +477,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11434000" />
+    <option name="totallyTimeSpent" value="12713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -532,48 +564,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/iniciandocomjpa/ConsultaClienteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="654">
           <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -581,10 +574,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/enums/SexoCliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/enums/StatusPedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/enums/StatusPagamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>

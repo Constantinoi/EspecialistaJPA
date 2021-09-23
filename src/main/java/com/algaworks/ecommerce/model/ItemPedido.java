@@ -1,6 +1,5 @@
 package com.algaworks.ecommerce.model;
 
-import com.algaworks.ecommerce.enums.SexoCliente;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -8,19 +7,24 @@ import lombok.Setter;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 @Getter
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-public class Cliente implements Serializable {
+public class ItemPedido implements Serializable {
 
     @Id
     @EqualsAndHashCode.Include
     private Integer id;
 
-    private String nome;
+    private Integer pedidoId;
 
-    private SexoCliente sexo;
+    private Integer ProdutoId;
+
+    private BigDecimal precoProduto;
+
+    private Integer quantidade;
 
 }

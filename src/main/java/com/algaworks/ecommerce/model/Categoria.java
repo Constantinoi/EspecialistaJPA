@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-public class Cliente implements Serializable {
+public class Categoria implements Serializable {
 
     @Id
     @EqualsAndHashCode.Include
@@ -21,6 +21,6 @@ public class Cliente implements Serializable {
 
     private String nome;
 
-    private SexoCliente sexo;
+    private Integer categoriaPaiId;
 
 }

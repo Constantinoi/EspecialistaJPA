@@ -1,6 +1,6 @@
 package com.algaworks.ecommerce.model;
 
-import com.algaworks.ecommerce.enums.SexoCliente;
+import com.algaworks.ecommerce.enums.StatusPagamento;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -8,19 +8,23 @@ import lombok.Setter;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.io.Serializable;
+import java.time.LocalDateTime;
+import java.util.Date;
 
 @Getter
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-public class Cliente implements Serializable {
+public class NotaFiscal implements Serializable {
 
     @Id
     @EqualsAndHashCode.Include
     private Integer id;
 
-    private String nome;
+    private Integer pedidoId;
 
-    private SexoCliente sexo;
+    private String xml;
+
+    private Date dataEmissao;
 
 }

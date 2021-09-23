@@ -1,6 +1,5 @@
 package com.algaworks.ecommerce.model;
 
-import com.algaworks.ecommerce.enums.SexoCliente;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -13,14 +12,14 @@ import java.io.Serializable;
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-public class Cliente implements Serializable {
+public class Estoque implements Serializable {
 
     @Id
     @EqualsAndHashCode.Include
     private Integer id;
 
-    private String nome;
+    private Integer produtoId;
 
-    private SexoCliente sexo;
+    private Integer quantidade;
 
 }
