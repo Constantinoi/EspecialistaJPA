@@ -17,6 +17,7 @@ import java.math.BigDecimal;
 public class PagamentoCartao implements Serializable {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     private Integer id;
 

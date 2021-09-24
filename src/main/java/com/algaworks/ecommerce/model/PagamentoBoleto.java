@@ -16,6 +16,7 @@ import java.io.Serializable;
 public class PagamentoBoleto implements Serializable {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     private Integer id;
 

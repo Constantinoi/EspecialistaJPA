@@ -18,6 +18,7 @@ import java.time.LocalDateTime;
 public class Pedido implements Serializable {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     private Integer id;
 
@@ -34,4 +35,7 @@ public class Pedido implements Serializable {
 
     @Enumerated(EnumType.STRING)
     private StatusPedido status;
+
+    @Embedded
+    private EnderecoEntregaPedido enderecoEntregaPedido;
 }
