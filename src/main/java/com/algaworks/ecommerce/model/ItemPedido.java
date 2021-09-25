@@ -20,11 +20,11 @@ public class ItemPedido implements Serializable {
     @EqualsAndHashCode.Include
     private Integer id;
 
-    @Column(name = "pedido_id")
-    private Integer pedidoId;
+    @ManyToOne
+    private Pedido pedidoId;
 
-    @Column(name = "produto_id")
-    private Integer produtoId;
+    @ManyToOne
+    private Produto produtoId;
 
     @Column(name = "preco_produto")
     private BigDecimal precoProduto;

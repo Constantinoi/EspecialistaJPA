@@ -22,6 +22,9 @@ public class Pedido implements Serializable {
     @EqualsAndHashCode.Include
     private Integer id;
 
+    @ManyToOne
+    private Cliente cliente;
+
     @Column(name = "data_pedido")
     private LocalDateTime dataPedido;
 
