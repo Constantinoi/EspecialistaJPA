@@ -15,6 +15,7 @@
             <version>1.18.8</version>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
@@ -48,5 +49,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

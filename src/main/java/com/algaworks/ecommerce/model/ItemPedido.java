@@ -21,10 +21,10 @@ public class ItemPedido implements Serializable {
     private Integer id;
 
     @ManyToOne
-    private Pedido pedidoId;
+    private Pedido pedido;
 
     @ManyToOne
-    private Produto produtoId;
+    private Produto produto;
 
     @Column(name = "preco_produto")
     private BigDecimal precoProduto;

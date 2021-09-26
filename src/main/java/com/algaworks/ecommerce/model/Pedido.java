@@ -9,6 +9,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Getter
 @Setter
@@ -38,6 +39,9 @@ public class Pedido implements Serializable {
 
     @Enumerated(EnumType.STRING)
     private StatusPedido status;
+
+    @OneToMany(mappedBy = "pedido")
+    private List<ItemPedido> itensPedido;
 
     @Embedded
     private EnderecoEntregaPedido enderecoEntregaPedido;
