@@ -32,8 +32,9 @@ public class Pedido implements Serializable {
     @Column(name = "data_conclusao")
     private LocalDateTime dataConclusao;
 
+    @OneToOne(mappedBy = "pedido")
     @Column(name = "nota_fiscal_id")
-    private Integer notaFiscalId;
+    private NotaFiscal notaFiscal;
 
     private BigDecimal total;
 
@@ -42,6 +43,9 @@ public class Pedido implements Serializable {
 
     @OneToMany(mappedBy = "pedido")
     private List<ItemPedido> itensPedido;
+
+    @OneToOne(mappedBy = "pedido")
+    private PagamentoCartao pagamento;
 
     @Embedded
     private EnderecoEntregaPedido enderecoEntregaPedido;

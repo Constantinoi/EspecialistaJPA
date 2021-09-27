@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5012389d-f2b6-4398-82be-b014c9ca2b9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RelacionamentoManyToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RelacionamentoOneToOneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,52 +23,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+            <state relative-caret-position="323">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RelacionamentoManyToManyTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RelacionamentoOneToOneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="431">
+              <caret line="51" column="64" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -100,26 +86,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/EnderencoEntregaPedido.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/EnderecoEntregaPedido.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Estoque.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/ItemPedido.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RelacionamentoOneToManyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RelacionamentoManyToOneTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/AutoRelacionamentoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RemovendoEntidadesReferenciadasTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Produto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" />
         <option value="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RelacionamentoManyToManyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RelacionamentoOneToOneTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="765" />
     <option name="y" value="-21" />
     <option name="width" value="1374" />
@@ -301,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RemovendoEntidadesReferenciadasTest.removerPedido">
+  <component name="RunManager" selected="JUnit.RelacionamentoOneToOneTest.verificarRelacionamento">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -348,22 +335,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelacionamentoOneToManyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algoworks-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algaworks.ecommerce.relacionamentoteste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.relacionamentoteste" />
-      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.relacionamentoteste.RelacionamentoOneToManyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RelacionamentoOneToManyTest.verificarRelacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algoworks-ecommerce" />
       <extension name="coverage">
@@ -374,6 +345,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.relacionamentoteste" />
       <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.relacionamentoteste.RelacionamentoOneToManyTest" />
+      <option name="METHOD_NAME" value="verificarRelacionamento" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelacionamentoOneToOneTest.verificarRelacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algoworks-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algaworks.ecommerce.relacionamentoteste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algaworks.ecommerce.relacionamentoteste" />
+      <option name="MAIN_CLASS_NAME" value="com.algaworks.ecommerce.relacionamentoteste.RelacionamentoOneToOneTest" />
       <option name="METHOD_NAME" value="verificarRelacionamento" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -425,11 +413,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RelacionamentoOneToOneTest.verificarRelacionamento" />
         <item itemvalue="JUnit.RemovendoEntidadesReferenciadasTest.removerPedido" />
         <item itemvalue="JUnit.AutoRelacionamentoTest.verificarRelacionamento" />
         <item itemvalue="JUnit.RelacionamentoOneToManyTest.verificarRelacionamento" />
         <item itemvalue="JUnit.ConsultaClienteTest.editarCliente" />
-        <item itemvalue="JUnit.RelacionamentoOneToManyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -451,17 +439,11 @@
       <workItem from="1632659774941" duration="2040000" />
       <workItem from="1632666111341" duration="485000" />
       <workItem from="1632671823407" duration="860000" />
-      <workItem from="1632730665185" duration="3085000" />
+      <workItem from="1632730665185" duration="4360000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConsultaClienteTest_editarCliente - 2021.09.26 at 11h 24m 39s.xml">
-      <configuration name="ConsultaClienteTest.editarCliente" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RelacionamentoOneToManyTest - 2021.09.26 at 11h 27m 19s.xml">
-      <configuration name="RelacionamentoOneToManyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RelacionamentoOneToManyTest - 2021.09.26 at 11h 27m 46s.xml">
       <configuration name="RelacionamentoOneToManyTest" configurationId="JUnit" />
     </history-entry>
@@ -486,9 +468,15 @@
     <history-entry file="RemovendoEntidadesReferenciadasTest_removerPedido - 2021.09.27 at 05h 51m 49s.xml">
       <configuration name="RemovendoEntidadesReferenciadasTest.removerPedido" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RelacionamentoOneToOneTest_verificarRelacionamento - 2021.09.27 at 06h 25m 15s.xml">
+      <configuration name="RelacionamentoOneToOneTest.verificarRelacionamento" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RelacionamentoOneToOneTest_verificarRelacionamento - 2021.09.27 at 06h 27m 35s.xml">
+      <configuration name="RelacionamentoOneToOneTest.verificarRelacionamento" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24576000" />
+    <option name="totallyTimeSpent" value="25851000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -503,6 +491,38 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19189766" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.31527627" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.11050921" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19189766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -533,7 +553,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -601,20 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RelacionamentoManyToOneTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -666,16 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/EntityManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -702,20 +698,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -750,6 +732,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RelacionamentoManyToManyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Categoria.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -757,10 +746,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RelacionamentoManyToManyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="454">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoBoleto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/NotaFiscal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/algaworks/ecommerce/relacionamentoteste/RelacionamentoOneToOneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="51" column="64" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/PagamentoCartao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algaworks/ecommerce/model/Pedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
