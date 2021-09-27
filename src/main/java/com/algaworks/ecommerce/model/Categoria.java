@@ -30,4 +30,7 @@ public class Categoria implements Serializable {
     @OneToMany(mappedBy = "categoriaPai")
     private List<Categoria> categorias;
 
+    @ManyToMany(mappedBy = "categorias")
+    private List<Produto> produtos;
+
 }
