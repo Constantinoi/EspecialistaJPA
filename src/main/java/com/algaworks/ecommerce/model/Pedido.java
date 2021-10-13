@@ -29,10 +29,10 @@ public class Pedido implements Serializable {
     @ManyToOne(optional = false)
     private Cliente cliente;
 
-    @Column(name = "data_criacao")
+    @Column(name = "data_criacao", updatable = false)
     private LocalDateTime dataCriacao;
 
-    @Column(name = "data_ultima_atualizacao")
+    @Column(name = "data_ultima_atualizacao", insertable = false)
     private LocalDateTime dataUltimaAtualizacao;
 
     @OneToOne(mappedBy = "pedido")
@@ -52,7 +52,7 @@ public class Pedido implements Serializable {
     @Embedded
     private EnderecoEntregaPedido enderecoEntregaPedido;
 
-    public boolean isPago(){
+    public boolean isPago() {
         return StatusPedido.PAGO.equals(status);
     }
 
