@@ -20,10 +20,10 @@ public class ItemPedido implements Serializable {
     @EqualsAndHashCode.Include
     private Integer id;
 
-    @ManyToOne
+    @ManyToOne(optional = false)
     private Pedido pedido;
 
-    @ManyToOne
+    @ManyToOne(optional = false)
     private Produto produto;
 
     @Column(name = "preco_produto")

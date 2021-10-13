@@ -22,7 +22,7 @@ public class NotaFiscal implements Serializable {
     @EqualsAndHashCode.Include
     private Integer id;
 
-    @OneToOne
+    @OneToOne(optional = false)
     @JoinColumn(name = "pedido_id")
     private Pedido pedido;
 

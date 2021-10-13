@@ -1,6 +1,8 @@
 package com.algaworks.ecommerce.model;
 
 import com.algaworks.ecommerce.enums.StatusPedido;
+import com.algaworks.ecommerce.listener.GenericoListener;
+import com.algaworks.ecommerce.listener.GerarNotaFiscalListener;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -14,6 +16,7 @@ import java.util.List;
 @Getter
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@EntityListeners({GerarNotaFiscalListener.class, GenericoListener.class})
 @Entity
 @Table(name = "pedido")
 public class Pedido implements Serializable {
@@ -23,17 +26,16 @@ public class Pedido implements Serializable {
     @EqualsAndHashCode.Include
     private Integer id;
 
-    @ManyToOne
+    @ManyToOne(optional = false)
     private Cliente cliente;
 
-    @Column(name = "data_pedido")
-    private LocalDateTime dataPedido;
+    @Column(name = "data_criacao")
+    private LocalDateTime dataCriacao;
 
-    @Column(name = "data_conclusao")
-    private LocalDateTime dataConclusao;
+    @Column(name = "data_ultima_atualizacao")
+    private LocalDateTime dataUltimaAtualizacao;
 
     @OneToOne(mappedBy = "pedido")
-    @Column(name = "nota_fiscal_id")
     private NotaFiscal notaFiscal;
 
     private BigDecimal total;
@@ -42,11 +44,59 @@ public class Pedido implements Serializable {
     private StatusPedido status;
 
     @OneToMany(mappedBy = "pedido")
-    private List<ItemPedido> itensPedido;
+    private List<ItemPedido> itens;
 
     @OneToOne(mappedBy = "pedido")
     private PagamentoCartao pagamento;
 
     @Embedded
     private EnderecoEntregaPedido enderecoEntregaPedido;
+
+    public boolean isPago(){
+        return StatusPedido.PAGO.equals(status);
+    }
+
+    public void calcularTotal() {
+        if (itens != null) {
+            total = itens.stream().map(ItemPedido::getPrecoProduto)
+                    .reduce(BigDecimal.ZERO, BigDecimal::add);
+        }
+    }
+
+    @PrePersist
+    public void aoPersistir() {
+        dataCriacao = LocalDateTime.now();
+        calcularTotal();
+    }
+
+    @PreUpdate
+    public void aoAtualizar() {
+        dataUltimaAtualizacao = LocalDateTime.now();
+        calcularTotal();
+    }
+
+    @PostPersist
+    public void aposPersistir() {
+        System.out.println("Após persistir Pedido.");
+    }
+
+    @PostUpdate
+    public void aposAtualizar() {
+        System.out.println("Após atualizar Pedido.");
+    }
+
+    @PreRemove
+    public void aoRemover() {
+        System.out.println("Antes de remover Pedido.");
+    }
+
+    @PostRemove
+    public void aposRemover() {
+        System.out.println("Após remover Pedido.");
+    }
+
+    @PostLoad
+    public void aoCarregar() {
+        System.out.println("Após carregar o Pedido.");
+    }
 }

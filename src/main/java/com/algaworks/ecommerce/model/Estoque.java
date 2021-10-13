@@ -20,8 +20,9 @@ public class Estoque implements Serializable {
     @EqualsAndHashCode.Include
     private Integer id;
 
-    @Column(name = "produto_id")
-    private Integer produtoId;
+    @OneToOne
+    @JoinColumn(name = "produto_id")
+    private Produto produto;
 
     private Integer quantidade;
 
